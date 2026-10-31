@@ -1,0 +1,25 @@
+<header>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-black" aria-label="Menú principal">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" routerLink="/nosotros">
+        <img src="images/logo.svg" alt="" width="40" height="40">
+        <span>MiMascota</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#menu" aria-controls="menu" aria-expanded="false"
+        aria-label="Mostrar u ocultar el menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/nosotros" routerLinkActive="active">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/servicios" routerLinkActive="active">Servicios</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
